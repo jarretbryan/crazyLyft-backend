@@ -1,4 +1,4 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :name, :points
+  attributes :id, :name, :points
   has_many :points
 end
