@@ -1,10 +1,15 @@
 class Api::V1::UsersController < ApplicationController
-    before_action :get_user, only: [:update]
+    before_action :get_user, only: [:show, :update]
 
     def index
         @users = User.all
         render json: @users
     end
+
+    def show
+        render json: @user
+    end
+
 
     def create
         @user = User.create(user_params)
