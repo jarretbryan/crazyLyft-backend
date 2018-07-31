@@ -1,4 +1,4 @@
-class ScoresController < ApplicationController
+class Api::V1::ScoresController < ApplicationController
 
     def create
         @score = Score.new(score_params)
