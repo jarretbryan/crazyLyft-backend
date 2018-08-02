@@ -10,7 +10,7 @@ This was built by [jarretbryan](https://github.com/jarretbryan), [sreemudunuri](
 
 This backend requires PostreSQL to be running. 
 
-In the repository, run ``` bundle install ``` to install all the required gem packages - then run ```rake db:schema:load``` to set up the schema. Make sure the server is running with ```rails s``` to play on the front end and save user data and scores. The front end will send fetch requests to the API to display user and score data.
+In the repository, in your terminal, enter ``` bundle install ``` to install all the required gem packages. Then, run Postgres and enter ```rake db:create && rake db:schema:load``` to set up the schema. Make sure the server is running with ```rails s``` to play on the front end and save user data and scores. The front end will send fetch requests to the API to display user and score data.
 
 
 
