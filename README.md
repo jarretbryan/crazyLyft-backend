@@ -1,6 +1,6 @@
-# Zombie Lyft
+# The Driving Dead
 
-Zombie Lyft is a browser game in which the user, driving a taxi, has to rush to collect(run over) as many passengers (zombies) as possible. This is a single page application, entirely written with Javascript. Users and scores are saved to this Rails backend which provides the API. The front end and core functionality of the game is [here](https://github.com/sreemudunuri/crazyLyft). 
+The Driving Dead is a browser game in which the user, driving a taxi, has to rush to collect(run over) as many passengers (zombies) as possible. This is a single page application, entirely written with Javascript. Users and scores are saved to this Rails backend which provides the API. The front end and core functionality of the game is [here](https://github.com/sreemudunuri/crazyLyft). 
 
 The HTML is styled with modified bootstrap, and the game itself uses the HTML5 Canvas, with JS providing the functionality.
 
